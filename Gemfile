@@ -10,7 +10,7 @@ source 'https://rubygems.org'
 
 # Runtime dependencies in the gemspec are treated like base dependencies, and
 # development dependencies are added by default to the group, :development.
-gemspec
+
 
 
 
@@ -48,7 +48,8 @@ gemspec
 #######################################
 # test
 #######################################
-group :test do
-  gem "jekyll-paginate"
-  gem "redcarpet"
-end
+
+gem "jekyll"
+gem "jekyll-paginate"
+gem "redcarpet"
+
